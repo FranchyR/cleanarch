@@ -17,5 +17,5 @@ class UsersRepositorySpy:
         self.select_user_attributes["first_name"] = first_name
         return [
             Users(23, first_name, 'last', 43),
-            Users(23, first_name, 'last2', 12)
+            Users(24, first_name, 'last2', 12)
         ]
